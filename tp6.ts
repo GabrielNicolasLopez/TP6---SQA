@@ -152,4 +152,6 @@ function main() {
   reset();
 }
 
+eval("function eval() {console.log('esto no se ejecutará');} eval();")
+
 main();
